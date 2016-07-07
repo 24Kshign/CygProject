@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:id="@+id/ltb_rv_title_bar"
+    android:background="@color/main_color">
+
+    <TextView
+        android:id="@+id/ltb_back_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/height10"
+        android:gravity="center_vertical"
+        android:onClick="true"
+        android:padding="@dimen/title_bar_drawable_padding"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ltb_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:maxLength="9"
+        android:singleLine="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:id="@+id/ltb_right_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/height10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/title_bar_drawable_padding"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_color">#3175d4</color>
+
+    <color name="main_grey">#ffb3b3b3</color>
+
+    <color name="scan_bg">#7f000000</color>
+    <color name="color_gray_background">#fff4f4f4</color>
+    <color name="color_line">#5990dc</color>
+
+    <color name="red_normal">#ff0000</color>
+    <color name="red_pressed">#8c0000</color>
+    <color name="price_red">#d92a53</color>
+</resources>
